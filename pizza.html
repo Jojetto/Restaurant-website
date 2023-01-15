@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Pizza</title>
+</head>
+<body>
+    
+    <div class="popup" id="popup"><h2>Thanks for using our restaurant!</h2>
+        <h3>Your order have been saved</h3>
+        <button type="button" style="background-color: green; color: #fff;box-shadow: 0 5px 10px rgba(0,0,0,0.4);" onclick="closePopup()">OK</button>
+        </div>
+    <div class="display">
+    <div class="menu">
+        <div class="content dis">
+            <div class="menu-card">
+    <div class="card">
+        <div class="image">
+            <img src="chick.jpg" width="250px" height="200px">
+        </div>
+        <div class="text">
+            <h3>Chicken Pizza</h3>
+            <h4>28$</h4>
+            <button type="button" onclick="openPopup()"><span class="material-symbols-outlined">
+                shopping_cart
+                </span>Add to my cart</button>
+        </a>
+        </div>
+        </div>
+        </div>
+        <div class="menu-card">
+        <div class="card">
+            <div class="image">
+                <img src="pepp.jpg" width="250px" height="200px">
+            </div>
+            <div class="text">
+                <h3>Peppirone Pizza</h3>
+                <h4>23$</h4>
+                <button type="button" onclick="openPopup()"><span class="material-symbols-outlined">
+                    shopping_cart
+                    </span>Add to my cart</button>
+            </a>
+            </div>
+            </div>
+            </div>
+            <div class="menu-card">
+            <div class="card">
+                <div class="image">
+                    <img src="ital.jpg" width="250px" height="200px">
+                </div>
+                <div class="text">
+                    <h3>Italiana Pizza</h3>
+                    <h4>19$</h4>
+                    <button type="button" onclick="openPopup()"><span class="material-symbols-outlined">
+                        shopping_cart
+                        </span>Add to my cart</button>
+                </a>
+                </div>
+                </div>
+                </div>
+                <div class="menu-card">
+                <div class="card">
+                    <div class="image">
+                        <img src="marg.jpg" width="250px" height="200px">
+                    </div>
+                    <div class="text">
+                        <h3>Margeritta Pizza</h3>
+                        <h4>27$</h4>
+                        <button type="button" onclick="openPopup()"><span class="material-symbols-outlined">
+                            shopping_cart
+                            </span>Add to my cart</button>
+                    </a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="menu-card">
+                    <div class="card">
+                        <div class="image">
+                            <img src="extra.jpg" width="250px" height="200px">
+                        </div>
+                        <div class="text">
+                            <h3>ExtraVaganza Pizza</h3>
+                            <h4>29$</h4>
+                            <button type="button" onclick="openPopup()"><span class="material-symbols-outlined">
+                                shopping_cart
+                                </span>Add to my cart</button>
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+        
+            </script>
+</body>
+</html>
